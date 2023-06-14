@@ -22,6 +22,7 @@ const Registration = () => {
                     </div>
                 </form>
             </div>
+
         </div>
     );
 };

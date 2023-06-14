@@ -33,6 +33,8 @@ const LogIn = () => {
                     <button  className='p-[10px] border rounded flex justify-center items-center gap-[6px] mx-auto mb-10  '>Continue with Google</button>
                 </div>
             </main>
+
+
         </div>
     );
 };
