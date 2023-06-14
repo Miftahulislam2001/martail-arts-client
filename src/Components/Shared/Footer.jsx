@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
             </footer>
 
-            <footer className="footer footer-center p-4 bg-[#1A1A1A] text-white">
+            <footer className="footer footer-center p-4 bg-[#1A1A1A] text-[#686666]">
                 <div>
                     <p>Copyright © 2023 - All right reserved by Miftahul islam</p>
                 </div>
