@@ -19,15 +19,15 @@ const Footer = () => {
                 <div>
                     <span className="footer-title">About Us</span>
                     <a href="/" className="link link-hover">Home</a>
-                    <a href="/Login" className="link link-hover">Gallery</a>
-                    <a href="/register" className="link link-hover">Milestone</a>
-                    <a href="/Blogs" className="link link-hover">Support</a>
+                    <a href="/gallery" className="link link-hover">Gallery</a>
+                    <a href="/classes" className="link link-hover">Classes</a>
+                    <a href="/instructor" className="link link-hover">Instructor</a>
                 </div>
                 <div>
                     <span className="footer-title">Transaction</span>
-                    <a href="/AllToys" className="link link-hover">Content</a>
-                    <a href="/AddToys" className="link link-hover">Payment</a>
-                    <a href="/MyToys" className="link link-hover">Blog</a>
+                    <a href="/contact" className="link link-hover">Content</a>
+                    <a href="/payment" className="link link-hover">Payment</a>
+                    <a href="/blog" className="link link-hover">Blog</a>
 
                 </div>
                 <div>
