@@ -5,20 +5,20 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
 
     const navItems = <>
-    <li><Link to="/">Home</Link> </li>
-    <li> <Link to="/about">About</Link> </li>
-    <li><Link to="/classes">Classes</Link></li>
-    <li><Link to="/instructor">Instructor</Link></li>
-    <li><Link to="/login">Login </Link></li>
-    <li><Link to="/registration">Registration</Link></li>
-    
-    {/* { user?.email ?  <>
+        <li><Link to="/">Home</Link> </li>
+        <li> <Link to="/about">About</Link> </li>
+        <li><Link to="/classes">Classes</Link></li>
+        <li><Link to="/instructor">Instructor</Link></li>
+        <li><Link to="/login">Login </Link></li>
+        <li><Link to="/registration">Registration</Link></li>
+
+        {/* { user?.email ?  <>
         <li><Link to="/bookings">My Bookings</Link></li>
         <li><button onClick={handleLogOut}>Log out</button></li>
     </> 
     : <li> <Link to="/login">Login</Link> </li>
    } */}
-</>
+    </>
 
     return (
         <div className="navbar bg-base-300 shadow-xl h-28">
@@ -31,8 +31,8 @@ const NavBar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-xl">
-                    <img src="https://kodesolution.com/html/2018/martialarts-html/demo/images/logo-wide.png"alt="" />
+                <Link to="/" className="btn btn-ghost normal-case text-xl md:ms-10">
+                    <img className='w-24 md:w-44' src="https://kodesolution.com/html/2018/martialarts-html/demo/images/logo-wide.png" alt="" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -41,9 +41,10 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end pr-3">
-            <button className="btn btn-outline text-red-500">Appointment</button>
+                <button className="btn btn-outline text-red-500">Appointment</button>
             </div>
         </div>
+
     );
 };
 
