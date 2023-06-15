@@ -13,10 +13,12 @@ const Banner = () => {
                         <button className="btn bg-[#FF3607] text-white hover:bg-[#f4c1ca] font-semibold rounded-3xl p-3 w-32 h-14 mr-5">Get Started</button>
                         <button className="btn btn-ghost text-red-600 p-3 w-32 h-14 rounded-3xl hover:text-[#fdf9fa] hover:bg-[#FF3607]">Learn More</button>
                     </div>
-                    <div className='lg:w-1/2 relative'>
-                        <img src="https://kitpro.site/doujo/wp-content/uploads/sites/109/2022/08/kick2.png" className="w-3/4 rounded-lg" />
 
+                    <div className='lg:w-1/2 relative flex justify-center items-center'>
+                        <img src="https://kitpro.site/doujo/wp-content/uploads/sites/109/2022/08/kick2.png" className="w-3/4 rounded-lg" />
                     </div>
+
+
                 </div>
             </div>
         </div>

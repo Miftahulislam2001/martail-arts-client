@@ -7,7 +7,7 @@ const OurProgram = () => {
             <div className='text-center'>
                 <h3 className='text-3xl font-semibold text-red-500 mt-5 '>Our Program</h3>
                 <h1 className='text-5xl font-semibold text-gray-700 mb-5'>Martial Arts Classes</h1>
-                <p className='text-gray-600 text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus <br /> nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <p className='text-gray-600 text-lg'>Transform your skills with our dynamic martial arts classes for all ages and experience levels.</p>
             </div>
 
             <div className="mb-20 mt-12 grid md:grid-cols-3 gap-3 justify-center items-center">

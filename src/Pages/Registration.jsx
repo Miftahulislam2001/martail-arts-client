@@ -18,7 +18,7 @@ const Registration = () => {
                     <button className='w-[80%] bg-[#e54769] mx-auto rounded py-2 my-5 text-white font-semibold' >Register</button>
                     <div>
                         Already have a account?
-                        <Link to="/login" className="px-2 font-semibold py-1 ml-2 text-[#563ee3] underline rounded">Login</Link>
+                        <Link to="/login" className="px-2 font-semibold py-1 ml-2 text-[#4c30e8] underline rounded">Login</Link>
                     </div>
                 </form>
             </div>
