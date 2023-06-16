@@ -5,7 +5,7 @@
         "instructor_name": "Loren W. Christensen",
         "instructor_email": "Loren W. Christensen@gmail.com",
         "avilable_seats": 20,
-        "student_enroll": 5000,
+        "student_enroll": 0,
         "price": 15,
         "status": "Approved"
     },
@@ -15,7 +15,7 @@
         "instructor_name": " Michael Matthews ",
         "instructor_email": " Michael Matthews@gmail.com",
         "avilable_seats": 25,
-        "student_enroll": 5500,
+        "student_enroll": 0,
         "price": 25,
         "status": "Approved"
     },
@@ -25,7 +25,7 @@
         "instructor_name": "Matt Schifferle ",
         "instructor_email": " Matt Schifferle@gmail.com",
         "avilable_seats": 30,
-        "student_enroll": 5500,
+        "student_enroll": 0,
         "price": 30,
         "status": "Approved"
     },
@@ -35,7 +35,7 @@
         "instructor_name": " Al Loren",
         "instructor_email": "  aiLoren@gmail.com",
         "avilable_seats": 32,
-        "student_enroll": 5500,
+        "student_enroll": 0,
         "price": 34,
         "status": "Approved"
     },
@@ -45,10 +45,11 @@
         "instructor_name": "Loren",
         "instructor_email": "loren@gmail.com",
         "avilable_seats": 35,
-        "student_enroll": 5500,
+        "student_enroll": 0,
         "price": 38,
         "status": "Approved"
     },
+
     {
         "name": " Valter Antunes",
         "image": "https://png.pngitem.com/pimgs/s/262-2627314_karate-hd-png-download.png",

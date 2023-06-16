@@ -11,7 +11,7 @@ const Story = () => {
             </div>
 
             <div className="mb-20 mt-12 grid md:grid-cols-3 gap-3 justify-center items-center">
-                <div className="card w-96 bg-base-100 rounded-none">
+                <div data-aos="zoom-in" className="card w-96 bg-base-100 rounded-none">
                     <figure><img src="https://kitpro.site/doujo/wp-content/uploads/sites/109/2022/08/martial-arts-master-on-fight-training-in-gym-2021-08-26-16-26-08-utc-1-copy-1024x684.jpg" alt="" /></figure>
                     <div className="card-body shadow-lg">
                         <h2 className="card-title">Don’t Limit Your Challenges</h2>
@@ -22,7 +22,7 @@ const Story = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 rounded-none">
+                <div data-aos="zoom-in" className="card w-96 bg-base-100 rounded-none">
                     <figure><img src="https://kitpro.site/doujo/wp-content/uploads/sites/109/2022/08/taekwondo-long-beach-british-columbia-2021-10-21-19-28-13-utc-copy-1024x684.jpg" alt="" /></figure>
                     <div className="card-body shadow-lg">
                         <h2 className="card-title">Everyone Has The Will To Win</h2>
@@ -32,7 +32,7 @@ const Story = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 rounded-none">
+                <div data-aos="zoom-in" className="card w-96 bg-base-100 rounded-none">
                     <figure><img src="https://kitpro.site/doujo/wp-content/uploads/sites/109/2022/08/young-judo-fighter-in-kimono-posing-comfident-in-t-2021-08-27-15-26-59-utc-1024x683.jpg" alt="" /></figure>
                     <div className="card-body shadow-lg">
                         <h2 className="card-title">Karate Builds Your Character</h2>
