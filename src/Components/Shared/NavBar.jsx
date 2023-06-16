@@ -1,23 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useAuthGlobally } from '../../Context/AuthProvider';
+
 
 
 const NavBar = () => {
 
+    const { user, logOut } = useAuthGlobally();
     const navItems = <>
         <li><Link to="/">Home</Link> </li>
         <li><Link to="/classes">Classes</Link></li>
         <li><Link to="/instructor">Instructor</Link></li>
         <li> <Link to="/dashboard">Dashboard</Link> </li>
-        <li><Link to="/login">Login </Link></li>
-        <li><Link to="/registration">Registration</Link></li>
+        {/* <li><Link to="/login">Login </Link></li>
+        <li><Link to="/registration">Registration</Link></li> */}
+        {
+                    user?.photoURL ? <img className="w-[35px] h-[35px] rounded-full" src={user.photoURL} title={user.displayName} alt="" /> : <></>
+                }
 
-        {/* { user?.email ?  <>
-        <li><Link to="/bookings">My Bookings</Link></li>
-        <li><button onClick={handleLogOut}>Log out</button></li>
-    </> 
-    : <li> <Link to="/login">Login</Link> </li>
-   } */}
+{
+                        user?.email ? <Link to='/login'><button onClick={logOut} className='px-5 py-2  rounded-md'>LogOut</button></Link> : <Link to='/login'><button onClick={logOut} className='px-5 py-2  rounded-md'>login</button></Link>
+                    }
     </>
 
     return (
