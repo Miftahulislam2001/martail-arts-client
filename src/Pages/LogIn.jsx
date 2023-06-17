@@ -108,7 +108,10 @@ const LogIn = () => {
                         </form>
 
                     </div>
-                    <button onClick={handelGoogle} className='p-[10px] border rounded flex justify-center items-center gap-[6px] mx-auto mb-10 '>Continue with Google</button>
+                    <button onClick={handelGoogle} className='p-[10px] border rounded-lg shadow  flex justify-center items-center gap-[6px] mx-auto mb-10 '>
+                        <img className='w-10 h-10' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyXt-6eKW1RmfLjjD8P2IR0g6c7sIdFoEE9A&usqp=CAU" alt="" />
+                    <span className='font-semibold'>Continue With Google</span>
+                       </button>
                 </div>
             </main>
 

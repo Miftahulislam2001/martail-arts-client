@@ -15,12 +15,12 @@ const NavBar = () => {
         {/* <li><Link to="/login">Login </Link></li>
         <li><Link to="/registration">Registration</Link></li> */}
         {
-                    user?.photoURL ? <img className="w-[35px] h-[35px] rounded-full" src={user.photoURL} title={user.displayName} alt="" /> : <></>
-                }
+            user?.photoURL ? <img className="w-[35px] h-[35px] rounded-full mx-3" src={user.photoURL} title={user.displayName} alt="" /> : <></>
+        }
 
-{
-                        user?.email ? <Link to='/login'><button onClick={logOut} className='px-5 py-2  rounded-md'>LogOut</button></Link> : <Link to='/login'><button onClick={logOut} className='px-5 py-2  rounded-md'>login</button></Link>
-                    }
+        {
+            user?.email ? <Link to='/login'><button onClick={logOut} className='px-5 py-2  rounded-md'>LogOut</button></Link> : <Link to='/login'><button onClick={logOut} className='px-5 py-2  rounded-md'>login</button></Link>
+        }
     </>
 
     return (

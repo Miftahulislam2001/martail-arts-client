@@ -25,7 +25,7 @@ const ClassesCard = ({ classes}) => {
                     whileHover={{ scale: 1.1 }}
                     transition={{ type: "spring", stiffness: 100 }}
 
-                    className="w-full" src={class_image} alt="" />
+                    className="object-cover w-full h-64" src={class_image} alt="" />
                 <Fade  triggerOnce={.6} delay={300} direction="up" cascade>
                     <h2 className='my-2 text-2xl font-bold'>{class_name}</h2>
                     <p className='mb-1'><span className='text-lg font-semibold'>Class Instructor</span>: {instructor_name}</p>
@@ -36,7 +36,7 @@ const ClassesCard = ({ classes}) => {
                     <p className='mb-1'><span className='text-lg font-semibold'>Class Fee</span>: ${price}</p>
                 </Fade>
             </div>
-            <button>Enroll</button>
+            <button className='bg-[#F72603] w-full border-none shadow rounded text-white font-semibold p-2'>Enroll</button>
         </div>
 
     );
