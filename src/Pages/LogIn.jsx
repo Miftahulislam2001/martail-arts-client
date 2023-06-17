@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import useAxiosSecure from '../Hook/useAxiosSecure';
+
 import { useAuthGlobally } from '../Context/AuthProvider';
 import { useForm } from 'react-hook-form';
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai';
 import Swal from 'sweetalert2';
+import useAxiosSecure from '../hook/useAxiosSecure';
 
 const LogIn = () => {
 

@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAfjfOQZqxzi8eHGci_HkauRBO1dl9l7wI",
-  authDomain: "martial-arts-5150e.firebaseapp.com",
-  projectId: "martial-arts-5150e",
-  storageBucket: "martial-arts-5150e.appspot.com",
-  messagingSenderId: "861298661725",
-  appId: "1:861298661725:web:e08d0c19fea66bc5ed30b4"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID
 };
 
 // Initialize Firebase

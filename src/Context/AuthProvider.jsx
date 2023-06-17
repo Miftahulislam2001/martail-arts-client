@@ -39,7 +39,7 @@ const AuthProvider = ({ children }) => {
         const unsubscribe = onAuthStateChanged(auth, correntUser => {
             setUser(correntUser)
             if(correntUser) {
-                fetch(`http://localhost:3000/jwt?email=${correntUser.email}`,
+                fetch(`https://martialarts.vercel.app/jwt?email=${correntUser.email}`,
                 {
                     method: "POST"
                 })

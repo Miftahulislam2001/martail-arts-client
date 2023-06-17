@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuthGlobally } from '../../Context/AuthProvider';
+import useDark from '../../Hook/useDark';
+import { MdOutlineDarkMode } from 'react-icons/md';
+import { HiOutlineLightBulb } from 'react-icons/hi';
 
 
 
 const NavBar = () => {
+
+    const [isDark, setIsdark] = useState(null)
+    useDark(isDark)
 
     const { user, logOut } = useAuthGlobally();
     const navItems = <>
@@ -45,7 +51,10 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end pr-3">
-                <button className="btn btn-outline text-red-500">Contact Us</button>
+                {/* <button className="btn btn-outline text-red-500">Contact Us</button> */}
+                <button>
+                    {isDark ? <HiOutlineLightBulb className="cursor-pointer" onClick={() => setIsdark(false)} /> : <MdOutlineDarkMode className="cursor-pointer" onClick={() => setIsdark(true)} />}
+                </button>
             </div>
         </div>
 

@@ -49,6 +49,46 @@
         "price": 38,
         "status": "Approved"
     },
+    {
+        "class_name": "Mooto Korea Taekwondo",
+        "class_image": "https://m.media-amazon.com/images/I/51HD0VtAlhL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "instructor_name": " Varady",
+        "instructor_email": " varady@gmail.com",
+        "avilable_seats": 38,
+        "student_enroll": 0,
+        "price": 40,
+        "status": "Approved"
+    },
+    {
+        "class_name": "Muay Thai Training Exercises",
+        "class_image": "https://m.media-amazon.com/images/I/51028PCnudL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "instructor_name": "Christoph Delp",
+        "instructor_email": "christoph Delp@gmail.com",
+        "avilable_seats": 43,
+        "student_enroll": 0,
+        "price": 45,
+        "status": "Approved"
+    },
+    {
+        "class_name": "The Art and Science of Stick Fighting",
+        "class_image": "https://m.media-amazon.com/images/I/5174A2h7myL._SX385_BO1,204,203,200_.jpg",
+        "instructor_name": "Joe Varady",
+        "instructor_email": "joearady@gmail.com",
+        "avilable_seats": 47,
+        "student_enroll": 0,
+        "price": 49,
+        "status": "Approved"
+    },
+    {
+        "class_name": " Science of Staff Fighting",
+        "class_image": "https://m.media-amazon.com/images/I/51HD0VtAlhL._SX383_BO1,204,203,200_.jpg",
+        "instructor_name": " Varady",
+        "instructor_email": " vaarady@gmail.com",
+        "avilable_seats": 50,
+        "student_enroll": 0,
+        "price": 52,
+        "status": "Approved"
+    },
 
     {
         "name": " Valter Antunes",
@@ -73,6 +113,26 @@
     {
         "name": "Chris Matakas",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx343Ox63v2rLl5gPbc2Lupy01ZsDFELzD6g&usqp=CAU",
+        "email": "matakas@gmail.com"
+    },
+    {
+        "name": "Chris katakas",
+        "image": "https://m.media-amazon.com/images/I/71SzgIncipL._AC_UY327_FMwebp_QL65_.jpg",
+        "email": "matakas@gmail.com"
+    },
+    {
+        "name": "banik Matakas",
+        "image": "https://m.media-amazon.com/images/I/415t3MTrb-L._AC_UY327_QL65_.jpg",
+        "email": "matakas@gmail.com"
+    },
+    {
+        "name": "haider Matakas",
+        "image": "https://m.media-amazon.com/images/I/419k9pQT0yL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "email": "matakas@gmail.com"
+    },
+    {
+        "name": "Ahad nakj",
+        "image": "https://m.media-amazon.com/images/I/41JKe2s5dKL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
         "email": "matakas@gmail.com"
     }
 ]
