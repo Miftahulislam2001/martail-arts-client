@@ -100,11 +100,11 @@ const LogIn = () => {
                             <p className='text-[#2a31ad] underline mt-5'><Link>Forget Password</Link></p>
                             <p>{error}</p>
                             <button className='w-[80%]  bg-[#EB2674]  mx-auto rounded py-2 my-5 text-white font-semibold flex items-center justify-center'>Login</button>
-
+                            
 
                             <p className='text-red-600 text-lg'></p>
 
-                            <p className='my-5'> Create a new account?<Link to="/register" className='text-[#492de9] underline'> Registration</Link></p>
+                            <p className='my-5'> Create a new account?<Link className='text-blue-700 font-semibold underline mx-1' to="/registration">Registration</Link></p>
                         </form>
 
                     </div>

@@ -11,9 +11,10 @@ const NavBar = () => {
         <li><Link to="/">Home</Link> </li>
         <li><Link to="/classes">Classes</Link></li>
         <li><Link to="/instructor">Instructor</Link></li>
-        <li> <Link to="/dashboard">Dashboard</Link> </li>
-        {/* <li><Link to="/login">Login </Link></li>
-        <li><Link to="/registration">Registration</Link></li> */}
+        
+        {/* <li> <Link to="/dashboard">Dashboard</Link> </li> */}
+        
+        
         {
             user?.photoURL ? <img className="w-[35px] h-[35px] rounded-full mx-3" src={user.photoURL} title={user.displayName} alt="" /> : <></>
         }
