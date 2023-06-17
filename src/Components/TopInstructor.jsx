@@ -24,7 +24,7 @@ const TopInstructor = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/public/instr/instr2.jpg" alt="" />
+                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/instr/instr2.jpg" alt="" />
                     <div className='relative bg-[#e85f47] opacity-95 text-white bottom-10 w-[300px] mx-auto rounded-full p-2'>
                         <div className=''>
                             <h1 className='mt-4 text-2xl font-semibold'>Sifu Liang Tian</h1>
@@ -35,7 +35,7 @@ const TopInstructor = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/public/instr/instr3.png" alt="" />
+                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/instr/instr3.png" alt="" />
                     <div className='relative bg-[#e85f47] opacity-95 text-white bottom-10 w-[300px] mx-auto rounded-full p-2'>
                         <div className=''>
                             <h1 className='mt-4 text-2xl font-semibold'>Shihan Aiko Tanaka</h1>
@@ -46,7 +46,7 @@ const TopInstructor = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/public/instr/instr4.jpg" alt="" />
+                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/instr/instr4.jpg" alt="" />
                     <div className='relative bg-[#e85f47] opacity-95 text-white bottom-10 w-[300px] mx-auto rounded-full p-2'>
                         <div className=''>
                             <h1 className='mt-4 text-2xl font-semibold'>Wong Kiew Kit</h1>
@@ -57,7 +57,7 @@ const TopInstructor = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/public/instr/instr5.jpg" alt="" />
+                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/instr/instr5.jpg" alt="" />
                     <div className='relative bg-[#e85f47] opacity-95 text-white bottom-10 w-[300px] mx-auto rounded-full p-2'>
                         <div className=''>
                             <h1 className='mt-4 text-2xl font-semibold'>Master Chen Zhihua</h1>
@@ -68,7 +68,7 @@ const TopInstructor = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/public/instr/instr6.jpg" alt="" />
+                    <img className='object-cover rounded-md h-96 w-96 shadow-lg' src="/instr/instr6.jpg" alt="" />
                     <div className='relative bg-[#e85f47] opacity-95 text-white bottom-10 w-[300px] mx-auto rounded-full p-2'>
                         <div className=''>
                             <h1 className='mt-4 text-2xl font-semibold'>Sensei Hiroshi Nakamura</h1>
