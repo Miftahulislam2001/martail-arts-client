@@ -19,7 +19,7 @@ const NavBar = () => {
         }
 
         {
-            user?.email ? <Link to='/login'><button onClick={logOut} className='px-5 py-2  rounded-md'>LogOut</button></Link> : <Link to='/login'><button onClick={logOut} className='px-5 py-2  rounded-md'>login</button></Link>
+            user?.email ? <Link to='/login'><button onClick={logOut} className='px-5 py-2  rounded-md hover:bg-slate-300'>LogOut</button></Link> : <Link to='/login'><button onClick={logOut} className='px-5 py-2 hover:bg-slate-300  rounded-md'>login</button></Link>
         }
     </>
 
