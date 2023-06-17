@@ -4,6 +4,8 @@ import OurProgram from '../OurProgram';
 import Discover from '../Discover';
 import Story from '../Story';
 import Subscribe from '../Subscribe';
+import TopInstructor from '../TopInstructor';
+
 
 const Home = () => {
     return (
@@ -12,6 +14,7 @@ const Home = () => {
             <OurProgram></OurProgram>
             <Discover></Discover>
             <Story></Story>
+            <TopInstructor></TopInstructor>
             <Subscribe></Subscribe>
         </div>
     );
